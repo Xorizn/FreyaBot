@@ -1,0 +1,46 @@
+{
+   "name": "freyabotz",
+   "version": "1.0.0",
+   "description": "WhatsApp Bot",
+   "main": "index.js",
+   "scripts": {
+      "start": "node ."
+   },
+   "engines": {
+      "node": "14.x",
+      "npm": "8.x"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Xorizn/FreyaBot.git"
+   },
+   "keywords": [
+      "wawebjs",
+      "base-wabot",
+      "puppeteer",
+      "whatsapp-web.js",
+      "xorizn"
+   ],
+   "author": "Xorizn",
+   "license": "MIT",
+   "dependencies": {  
+      "@adiwajshing/baileys": "npm:baileys",
+      "@adiwajshing/keyed-db": "^0.2.4",
+      "@colors/colors": "1.5.0",
+      "@neoxr/neoxr-js": "^1.4.7",
+      "cfonts": "~2.10.0",
+      "express": "~4.16.4",
+      "json-stable-stringify": "^1.0.2",
+      "network-speed": "^2.1.1",
+      "node-cron": "^3.0.0",
+      "node-gtts": "^2.0.2",
+      "pino": "~7.0.5",
+      "spinnies": "^0.5.1",
+      "translate-google-api": "~1.0.4",
+      "yt-search": "~2.10.0"
+   },
+   "bugs": {
+      "url": "https://github.com/Xorizn/FreyaBot/issues"
+   },
+   "homepage": "https://github.com/Xorizn/FreyaBot#readme"
+}
