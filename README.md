@@ -14,18 +14,18 @@
 
 ## CARA INSTALL DI TERMUX
 ```
-> pkg install nodejs && pkg install git
-> git clone https://github.com/Xorizn/FreyaBot.git
-> cd FreyaBot
-> npm i
-> npm start
+pkg install nodejs && pkg install git
+git clone https://github.com/Xorizn/FreyaBot.git
+cd FreyaBot
+npm i
+npm start
 ```
 ## CARA INSTALL DI LAPTOP
 ```
-> git clone https://github.com/Xorizn/FreyaBot.git
-> cd FreyaBot
-> npm i
-> npm start
+git clone https://github.com/Xorizn/FreyaBot.git
+cd FreyaBot
+npm i
+npm start
 ```
 
 # INSTALL
