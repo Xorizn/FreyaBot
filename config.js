@@ -2,7 +2,7 @@ const { Function, Scraper } = new (require("@neoxr/neoxr-js"))();
 // Owner number
 global.owner = "6281337541779";
 // Owner name
-global.owner_name = "DeveLoper Itsuka";
+global.owner_name = "Xorizn";
 // Database name (Default: database)
 global.database = "bot";
 // Maximum upload file size limit (Default : 100 MB)
@@ -24,9 +24,9 @@ global.Api = new (require("./src/event/event.XoriznApis"))(process.env.API_KEY);
 // Timezone (Default : Asia/Jakarta)
 global.timezone = "Asia/Jakarta";
 // Bot version
-(global.version = "2.2.2"),
+(global.version = "1.0.0"),
   // Bot name
-  (global.botname = `© Itsuka Botz v${global.version} (Public Bot)`);
+  (global.botname = `FreyaBot`);
 // Footer text
 global.footer = "simple bot whatsapp by itsuka botz ッ";
 // Scraper

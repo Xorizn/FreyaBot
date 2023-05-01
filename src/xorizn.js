@@ -1,4 +1,4 @@
-require("./config"),
+require("../config"),
   (require("events").EventEmitter.defaultMaxListeners = 50);
 const pino = require("pino"),
   path = require("path"),
@@ -28,7 +28,7 @@ global.props =
     ? MongoDB
     : process.env.DATABASE_URL && /postgres/.test(process.env.DATABASE_URL)
     ? PostgreSQL
-    : new (require("./src/event/event.localdb"))(global.database);
+    : new (require("./event/event.localdb"))(global.database);
 
 const store = makeInMemoryStore({
   logger: pino().child({
@@ -37,10 +37,9 @@ const store = makeInMemoryStore({
   }),
 });
 
-// don't rename "neoxr_store.json" to avoid error!!
-store.readFromFile("./session/neoxr_store.json");
+store.readFromFile("./session/xorizn.json");
 setInterval(() => {
-  store.writeToFile("./session/neoxr_store.json");
+  store.writeToFile("./session/xorizn.json");
 }, 10000);
 
 const connect = async () => {
@@ -142,8 +141,8 @@ const connect = async () => {
             require(file),
           ])
       );
-      require("./src/event/event.baileys"),
-        require("./src/event/event.message")(client, m, cmd, store);
+      require("./event/event.baileys"),
+        require("./event/event.message")(client, m, cmd, store);
     } catch (e) {
       console.log(e);
     }
