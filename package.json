@@ -22,7 +22,7 @@
       "xorizn"
    ],
    "author": "Xorizn",
-   "license": "MIT",
+   "license": "GPL-3.0-or-later",
    "dependencies": {  
       "@adiwajshing/baileys": "npm:baileys",
       "@adiwajshing/keyed-db": "^0.2.4",
