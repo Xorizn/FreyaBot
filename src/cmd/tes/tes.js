@@ -1,7 +1,7 @@
 const { decode } = require("html-entities");
 exports.def = {
-  usage: ["mediafire"],
-  hidden: ["mf"],
+  usage: ["tes"],
+  hidden: ["test"],
   use: "link",
   category: "downloader",
   async: async (m, { client, args, isPrefix, command }) => {
