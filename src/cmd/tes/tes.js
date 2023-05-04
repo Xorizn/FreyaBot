@@ -6,7 +6,7 @@ exports.def = {
   category: "downloader",
   async: async (m, { client, args, isPrefix, command }) => {
     try {
-      console.log('tes')
+      console.log('tes halo')
     } catch {
       return client.reply(m.chat, global.status.error, m);
     }
